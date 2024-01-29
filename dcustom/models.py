@@ -8,8 +8,9 @@ class JSONDetailsMixin(models.Model):
     """
 
     details = models.JSONField(
-        null=True,
-        blank=True,
+        null=False,
+        # blank=True,
+        default=dict,
         verbose_name=_("detil-detil lainnya"),
     )
 
