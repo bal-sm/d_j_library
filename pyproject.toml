@@ -4,6 +4,9 @@ version = "0.1.0" # freeze aja `0.1.0` sampe emang harus di-publish secara forma
 description = ""
 authors = ["Mahmuda <bal.mahmuda@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "d_j_library" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
