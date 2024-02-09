@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "d-j-library"
+name = "d_j_library"
 version = "0.1.0"
 description = ""
 authors = ["Mahmuda <bal.mahmuda@gmail.com>"]
