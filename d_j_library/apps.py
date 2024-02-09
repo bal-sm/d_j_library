@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class DcustomConfig(AppConfig):
+class DJLibraryConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "dcustom"
+    name = "d_j_library"
